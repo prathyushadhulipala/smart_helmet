@@ -1,0 +1,10 @@
+---
+applications:
+- name: samplerest
+  memory: 256M
+  host: samplerest
+  domain: tcs.us-south.mybluemix.net
+  services:
+  - Cloudant NoSQL DB Dedicated-4u
+  - IBM Push Notifications-3k
+  - Workflow-po
